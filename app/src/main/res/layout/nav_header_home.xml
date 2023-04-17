@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/nav_header_pic"
+        android:background="@drawable/circular_bordershape">
+
+    </ImageView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

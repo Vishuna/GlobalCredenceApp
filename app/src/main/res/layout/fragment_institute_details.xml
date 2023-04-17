@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--    Main Layout-->
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                android:layout_marginTop="20dp"
+                >
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_school_24"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_org_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Organization Name"
+                    style="@style/profileDetailsTextMain"
+                    />
+
+                <TextView
+                    android:id="@+id/org_name"
+                    android:layout_below="@+id/text_org_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None"
+                    style="@style/profileDetailsMiniText"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_calendar_today_24"
+                    />
+
+                <TextView
+                    android:id="@+id/org_establishtext_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Establish Date"
+                    style="@style/profileDetailsTextMain"/>
+
+                    />
+
+                <TextView
+                    android:id="@+id/org_establish_date"
+                    android:layout_below="@+id/org_establishtext_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None"
+
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_phone_24"
+                    />
+
+                <TextView
+                    android:id="@+id/t_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Contact"
+                    style="@style/profileDetailsTextMain"
+
+                  />
+
+                <TextView
+                    android:layout_below="@+id/t_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/org_contact"
+                   />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_event_available_24"
+                    />
+
+                <TextView
+                    android:id="@+id/t_session_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsTextMain"
+                    android:text="Session Start Date"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/t_session_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/org_session_start_date"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_account_circle_24"
+                    />
+
+                <TextView
+                    android:id="@+id/t_principal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Principal"
+                    style="@style/profileDetailsTextMain"
+                 />
+
+                <TextView
+                    android:layout_below="@+id/t_principal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/org_principal"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_web_24"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Website"
+                    style="@style/profileDetailsTextMain"
+                    android:id="@+id/t_org_website"
+               />
+
+                <TextView
+                    android:layout_below="@+id/t_org_website"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/org_website"
+                    />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_apartment_24"
+                    />
+
+                <TextView
+                    android:id="@+id/t_address1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    style="@style/profileDetailsTextMain"
+                    />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"
+                    android:layout_marginTop="30sp">
+                <LinearLayout
+                    android:id="@+id/address_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t_address1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/org_address1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:text="None"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/org_address2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/user_address1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@null"
+                        android:text="None" />
+
+
+                    <TextView
+                        android:id="@+id/org_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@null"
+                        android:text="None" />
+
+                    <TextView
+                        android:id="@+id/org_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@null"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/org_pincode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@null"
+                        android:text="" />
+
+                </LinearLayout>
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

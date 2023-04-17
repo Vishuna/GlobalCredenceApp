@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+        <device id="Nexus 5X" />
+        <device id="pixel_3a_xl" />
+        <device id="pixel_2_xl" />
+        <device id="Nexus 6P" />
+        <device id="Nexus 6" />
+        <device id="pixel" />
+        <device id="pixel_xl" />
+        <device id="pixel_3_xl" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1223492f-ece2-4c9f-9a92-51d09ac7e6f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/login3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/login4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/unnamed.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[147ef26d]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1h3hwCXnKFbOGbDEgOk24rPus4n" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="147ef26d" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-05T05:02:21.740Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/TBAWINDIA04/AppData/Local/Android/Sdk/sources/android-29/android/widget/TableRow.java_SELECTED" value="TableRow" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="multi-representation-previewC:/Users/TBAWINDIA04/AppData/Local/Android/Sdk/sources/android-29/android/widget/TableRow.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-884966481">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TBAWINDIA04\AndroidStudioProjects\GlobalCredenceApp2\app\src\main\res\drawable" />
+      <recent name="C:\Users\TBAWINDIA04\AndroidStudioProjects\GlobalCredenceApp2\app\src\main\res\drawable-anydpi" />
+    </key>
+    <key name="android.template.-1261490381">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.-1067616369">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.-489511000">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.1328652896">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.501239235">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.174320696">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.-703685">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+    <key name="android.template.-407067930">
+      <recent name="com.example.globalcredenceapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="GlobalCredence_App.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1223492f-ece2-4c9f-9a92-51d09ac7e6f3" name="Default Changelist" comment="" />
+      <created>1599245918617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599245918617</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update">
+      <created>1603436426355</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603436426355</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update">
+      <created>1603439032846</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603439032846</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update">
+      <created>1603449219161</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603449219161</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update">
+      <created>1603511548288</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603511548288</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update">
+      <created>1603513075684</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603513075684</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update">
+      <created>1603637023367</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603637023368</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update">
+      <created>1603638818828</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603638818828</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update">
+      <created>1603641630870</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603641630870</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update">
+      <created>1603642190770</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603642190770</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update">
+      <created>1603776277131</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603776277131</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update">
+      <created>1603876695334</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603876695334</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update">
+      <created>1603966581712</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603966581725</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update">
+      <created>1604131493874</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1604131493874</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update">
+      <created>1604549279583</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1604549279583</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update">
+      <created>1604575117602</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1604575117602</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update">
+      <created>1604582450297</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1604582450297</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update">
+      <created>1604740622651</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604740622651</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update">
+      <created>1604749460652</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1604749460652</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update">
+      <created>1604751219175</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1604751219175</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update">
+      <created>1604833640429</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1604833640429</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update">
+      <created>1604889870322</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1604889870322</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update">
+      <created>1605004246281</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1605004246281</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Parent child card updated">
+      <created>1605084754040</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1605084754040</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Parent child card updated">
+      <created>1605085078438</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1605085078438</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Parent child card updated">
+      <created>1605096580533</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605096580534</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Parent child card updated">
+      <created>1605172259645</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605172259646</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Parent child card updated">
+      <created>1605172486355</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1605172486355</updated>
+    </task>
+    <task id="LOCAL-00053" summary="dashboard card updated">
+      <created>1605240448033</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1605240448034</updated>
+    </task>
+    <task id="LOCAL-00054" summary="dashboard card updated">
+      <created>1605240761079</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1605240761079</updated>
+    </task>
+    <task id="LOCAL-00055" summary="dashboard card updated">
+      <created>1605760394763</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1605760394764</updated>
+    </task>
+    <task id="LOCAL-00056" summary="dashboard card updated">
+      <created>1605844431590</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1605844431592</updated>
+    </task>
+    <task id="LOCAL-00057" summary="dashboard card updated">
+      <created>1605931283623</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1605931283627</updated>
+    </task>
+    <task id="LOCAL-00058" summary="dashboard card updated">
+      <created>1606190169373</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1606190169415</updated>
+    </task>
+    <task id="LOCAL-00059" summary="dashboard card updated">
+      <created>1606365567794</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1606365567794</updated>
+    </task>
+    <task id="LOCAL-00060" summary="dashboard card updated">
+      <created>1606382050038</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1606382050093</updated>
+    </task>
+    <task id="LOCAL-00061" summary="dashboard card updated">
+      <created>1606535556361</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1606535556361</updated>
+    </task>
+    <task id="LOCAL-00062" summary="buttons updated">
+      <created>1606564375453</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1606564375515</updated>
+    </task>
+    <task id="LOCAL-00063" summary="buttons updated">
+      <created>1606648374879</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1606648374880</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Final code updated">
+      <created>1606649090598</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1606649090598</updated>
+    </task>
+    <task id="LOCAL-00065" summary="old calendar removed">
+      <created>1606669475918</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1606669475919</updated>
+    </task>
+    <task id="LOCAL-00066" summary="tablelayout changes done">
+      <created>1606904677145</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1606904677146</updated>
+    </task>
+    <task id="LOCAL-00067" summary="tablelayout changes done">
+      <created>1606907098643</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1606907098644</updated>
+    </task>
+    <task id="LOCAL-00068" summary="tablelayout changes done2">
+      <created>1606907369897</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1606907369897</updated>
+    </task>
+    <task id="LOCAL-00069" summary="library Add book and issue book screen">
+      <created>1609241531754</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241531755</updated>
+    </task>
+    <task id="LOCAL-00070" summary="library Add book and issue book screen">
+      <created>1609241880550</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241880551</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Navigation bar icon update">
+      <created>1610007989817</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1610007989818</updated>
+    </task>
+    <task id="LOCAL-00072" summary="library UI update">
+      <created>1611028586391</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1611028586392</updated>
+    </task>
+    <task id="LOCAL-00073" summary="library UI update">
+      <created>1612241376043</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1612241376043</updated>
+    </task>
+    <task id="LOCAL-00074" summary="library UI update">
+      <created>1612256414847</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1612256414848</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/TBAWINDIA04/AndroidStudioProjects/GlobalCredenceApp2/app" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/nidhigautam8690/GlobalCredenceApp&#10;&#10; Conflicts:&#10;&#9;app/src/main/res/layout/activity_dashboard.xml" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/nidhigautam8690/GlobalCredenceApp&#10;&#10; Conflicts:&#10;&#9;app/src/main/res/layout/activity_dashboard.xml" />
+    <MESSAGE value="Parent child card updated" />
+    <MESSAGE value="dashboard card updated" />
+    <MESSAGE value="buttons updated" />
+    <MESSAGE value="Final code updated" />
+    <MESSAGE value="old calendar removed" />
+    <MESSAGE value="tablelayout changes done" />
+    <MESSAGE value="tablelayout changes done2" />
+    <MESSAGE value="library Add book and issue book screen" />
+    <MESSAGE value="Navigation bar icon update" />
+    <MESSAGE value="library UI update" />
+    <option name="LAST_COMMIT_MESSAGE" value="library UI update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="200" y="96" key="#PSD" timestamp="1606190226296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="200" y="96" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1606190226296" />
+    <state x="265" y="29" key="#Updates" timestamp="1607262788782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="265" y="29" key="#Updates/0.0.1366.728@0.0.1366.728" timestamp="1607262788782" />
+    <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604477125264">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604477125264" />
+    <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611893981921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1611893981921" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611226035063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611226035063" />
+    <state x="253" y="104" key="AndroidCreateResourceDirectoryDialog" timestamp="1611288806281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="253" y="104" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1611288806281" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1611289219037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1611289219037" />
+    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1612256412105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1612256412105" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612247673566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612247673566" />
+    <state width="1286" height="522" key="GridCell.Tab.0.bottom" timestamp="1612179355650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="522" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612179355650" />
+    <state width="1286" height="522" key="GridCell.Tab.0.center" timestamp="1612179355650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="522" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612179355650" />
+    <state width="1286" height="522" key="GridCell.Tab.0.left" timestamp="1612179355650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="522" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612179355650" />
+    <state width="1286" height="522" key="GridCell.Tab.0.right" timestamp="1612179355650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="522" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612179355650" />
+    <state x="253" y="92" key="IDE.errors.dialog" timestamp="1605004498751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="253" y="92" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1605004498751" />
+    <state x="112" y="38" key="MergeDialog" timestamp="1612241597795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="112" y="38" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1612241597795" />
+    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1612241597815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1612241597815" />
+    <state x="350" y="60" key="RollbackChangesDialog" timestamp="1605005474756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="60" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605005474756" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612256459252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612256459252" />
+    <state x="489" y="127" key="chooseDestDirectoryDialog" timestamp="1612250758624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="127" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612250758624" />
+    <state x="110" y="120" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1609142401844">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="110" y="120" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1609142401844" />
+    <state x="134" y="150" key="com.intellij.ide.util.TipDialog" timestamp="1609384608042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="134" y="150" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609384608042" />
+    <state x="391" y="140" key="git4idea.merge.GitMergeDialog" timestamp="1605005445562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="140" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1605005445562" />
+    <state x="358" y="154" key="git4idea.merge.GitPullDialog" timestamp="1612256435113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="358" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1612256435113" />
+    <state x="329" y="157" key="run.anything.popup" timestamp="1605190928920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="329" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605190928920" />
+    <state x="336" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604889428396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="336" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604889428396" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/globalcredenceapp/Dashboard.java</url>
+          <line>525</line>
+          <properties class="com.example.globalcredenceapp.Dashboard" method="NewCal">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

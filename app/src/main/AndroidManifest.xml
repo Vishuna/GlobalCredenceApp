@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.globalcredenceapp">
+
+    <uses-sdk android:maxSdkVersion="22" />
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/blogo"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:roundIcon="@drawable/blogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustNothing"
+        android:usesCleartextTraffic="true"
+        >
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBEx9YnGLbo0zLzMNgTRysOZv8LAMS-ja0" />
+
+        <activity
+            android:name=".Library_User"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AttendanceStudentUpdate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddBook"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".IssueBook"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scannerView"
+            android:theme="@style/AppTheme.NoActionBar"
+             />
+        <activity
+            android:name=".LogoutMessage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Email_Activation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parent_child"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Child_Card"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TripData"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AttendanceStudent"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity android:name=".attendance"></activity> -->
+        <activity
+            android:name=".EditInstitute"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InstituteProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgotPasswordMessage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewUser"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity
+            android:name=".ForgotPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignupMessage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".edit_profile"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".notice.Notice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attendance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".services.MyFirebaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

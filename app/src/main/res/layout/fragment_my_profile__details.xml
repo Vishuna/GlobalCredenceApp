@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--    Main Layout-->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                >
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_school_24"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Organization Name"
+                    android:id="@+id/text_org_name"
+                    style="@style/profileDetailsTextMain"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_org_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None"
+                    android:id="@+id/user_org_name"
+                    style="@style/profileDetailsMiniText"
+                   />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_phone_24"
+                    />
+
+                <TextView
+                    android:id="@+id/text_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact"
+                    style="@style/profileDetailsTextMain"
+
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_contact"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_account_circle_24"
+                    />
+
+                <TextView
+                    android:id="@+id/text_designation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Role/Designation"
+                    style="@style/profileDetailsTextMain"
+                   />
+
+                <TextView
+                    android:layout_below="@+id/text_designation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_role"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_qualification_24"
+                    />
+
+                <TextView
+                    android:id="@+id/text_qualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Qualification"
+                    style="@style/profileDetailsTextMain"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_qualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_qualification"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_fingerprint_24"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_addhar_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aadhar Card Number"
+                    style="@style/profileDetailsTextMain"
+
+                 />
+
+                <TextView
+                    android:layout_below="@+id/text_addhar_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_aadhar_card"
+
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_parent_24"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_father_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Father's Name"
+                    style="@style/profileDetailsTextMain"
+
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_father_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_father"
+                       />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_parent_24"
+                    />
+
+                <TextView
+                    android:id="@+id/text_mother_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mother's Name"
+                    style="@style/profileDetailsTextMain"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_mother_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_mother"
+                      />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_birth_24"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Birth"
+                    style="@style/profileDetailsTextMain"
+
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_dob"
+                     />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_married_24"
+                    />
+
+
+                <TextView
+                    android:id="@+id/text_marital_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Marital Status"
+                    style="@style/profileDetailsTextMain"
+
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_marital_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_marital_status"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_category_24"
+                    />
+
+                <TextView
+                    android:id="@+id/text_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    style="@style/profileDetailsTextMain"
+
+                    />
+
+                <TextView
+                    android:layout_below="@+id/text_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/profileDetailsMiniText"
+                    android:text="None"
+                    android:id="@+id/user_category"
+                    />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                >
+                <ImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_baseline_apartment_24"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:id="@+id/u_address"
+                    style="@style/profileDetailsTextMain"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"
+                    android:layout_marginTop="30sp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_below="@+id/u_address"
+                    android:id="@+id/address_layout">
+                    <TextView
+                        android:id="@+id/user_address1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/profileDetailsMiniText"
+                        android:text="None"
+                        />
+                    <TextView
+                        android:id="@+id/user_address2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        style="@style/profileDetailsMiniText"
+                        android:text="None"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="None"
+                        android:id="@+id/user_city"
+                        style="@style/profileDetailsMiniText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="None"
+                        android:id="@+id/user_state"
+                        style="@style/profileDetailsMiniText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="None"
+                        android:id="@+id/user_pincode"
+                        style="@style/profileDetailsMiniText"/>
+
+
+                        />
+                </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>

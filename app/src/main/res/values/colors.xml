@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color>
+    <color name="themetext">#ff6600</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1e88e5</color>
+    <color name="colorAccentDark">#005cb2</color>
+    <color name="colorAccentLight">#6ab7ff</color>
+    <color name="colorLinks">#fff</color>
+    <color name="colorHint">#808080</color>
+    <color name="theme_color">#1976d2</color>
+    <color name="dark_gray">#535353</color>
+    <color name="background_color">#fff</color>
+
+    <color name="border_color">#808080</color>
+    <color name="basic_body_color">#ececec</color>
+
+    <color name="my_spinner_text_color">#808080</color>
+    <color name="red_color">#ff0000</color>
+    <color name="green_color">#00ff00</color>
+    <color name="dark_green_color">#008000</color>
+    <color name="blue_color">#344ae1</color>
+    <color name="white">#fff</color>
+    <color name="gray">#939393</color>
+    <color name="table_head">#868686</color>
+    <color name="class_table">#3b9aff</color>
+    <color name="blue">#1d8eff</color>
+    <color name="black">#000000</color>
+    <color name="blue_charcoal">#212529</color>
+    <color name="status_bar_color">#1B66EE</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

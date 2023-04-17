@@ -1,0 +1,2 @@
+rootProject.name='GlobalCredence App'
+include ':app'

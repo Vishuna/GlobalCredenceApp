@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="30dp"
+    >
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp">
+    <TextView
+        android:id="@+id/l_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Id"
+        android:textSize="20dp"
+
+>
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/l_book_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/trans_logo"
+            android:inputType="textEmailAddress"
+            android:textSize="15dp"
+            android:padding="5dp"
+          android:hint="Book Id"
+            android:textIsSelectable="false"
+            android:textColorHint="@color/colorHint"
+            android:background="@layout/my_edit_text_border"
+
+            />
+    </LinearLayout>
+</LinearLayout>

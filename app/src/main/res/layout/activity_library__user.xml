@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Library_User"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/theme_color">
+
+        <ImageButton
+            android:id="@+id/menu_iv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@color/theme_color"
+            android:src="@drawable/menu_foreground" />
+
+    </LinearLayout>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search users"
+        android:iconifiedByDefault="false"
+        android:id="@+id/search_view"
+        android:background="@color/colorAccentLight"
+        ></SearchView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/basic_body_color"
+        android:id="@+id/parentScrollView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linear_issue_table"
+        android:layout_alignParentBottom="true"
+
+        >
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal">
+
+            <TableLayout
+                android:id="@+id/user_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:divider="@color/table_head"
+                android:showDividers="middle"
+                android:stretchColumns="*"
+                >
+            </TableLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

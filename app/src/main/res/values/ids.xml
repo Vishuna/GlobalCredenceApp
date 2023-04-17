@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_pager" type="id" />
+    <item name="my_profile_tab_header" type="id" />
+    <item name="google_maps" type="id" />
+</resources>

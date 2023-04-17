@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ececec"
+
+
+    android:id="@+id/android_login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:background="@drawable/shadowss"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:layout_centerHorizontal="true"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_color"
+                android:layout_marginTop="5dp"
+                android:text="You are already registered with us. To activate"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_color"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="your account, enter your registered e-mail and  "
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_color"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="follow the sent mail to activate your account."
+                />
+        </LinearLayout>
+
+
+        //Email
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="*"
+                android:paddingLeft="2dp"
+                android:textColor="@color/red_color"
+                android:layout_marginTop="10dp">
+
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/reactivation_email"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/trans_logo"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp"
+                android:background="@drawable/round_border"
+
+                android:padding="5dp"
+
+
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/reset_link_btn"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:text="SEND ACTIVATION MAIL"
+                android:textColor="#fff"
+                android:background="@drawable/button_selector"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+
+                ></Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

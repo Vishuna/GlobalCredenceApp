@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile_About"
+    android:gravity="left">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--    Main Layout-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Contact Info"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <!--        Email Layout-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="3"
+            >
+
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_baseline_email_24"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/email_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:text="None"
+                android:textColor="@color/dark_gray"
+                android:id="@+id/user_email"
+                />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="2"
+            >
+
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_phone_24" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Phone"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/phone_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:text="None"
+                android:textColor="@color/dark_gray"
+                android:id="@+id/user_phone"
+                />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="2"
+            >
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_facebook_24"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Facebook"
+android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/facebook_text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:text="None"
+                android:textColor="@color/dark_gray"
+                android:id="@+id/user_facebook"
+                />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Organizational Details"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <!--        Email Layout-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="2"
+            >
+            <ImageView
+                android:id="@+id/profile_institute_name"
+                android:layout_width= "40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_school_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/name_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/dark_gray"
+                android:text="None"
+                android:id="@+id/user_institute_name"
+                />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2"
+        >
+
+        <ImageView
+            android:id="@+id/profile_institute"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_fingerprint_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Code"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/code_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:text="None"
+            android:textColor="@color/dark_gray"
+            android:id="@+id/user_institute_code"
+
+            />
+
+    </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:id="@+id/profile_institute_address"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_apartment_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Address"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/address_text"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal"
+                android:layout_marginTop="30sp">
+            <LinearLayout
+                android:id="@+id/address_layout"
+                android:singleLine="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address_text"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp"
+                android:weightSum="6"
+
+                >
+
+                <TextView
+                    android:id="@+id/user_institute_address1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None"
+                    android:textColor="@color/dark_gray"
+                   />
+
+
+
+                <TextView
+                    android:id="@+id/user_institute_address2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/user_address1"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:textColor="@color/dark_gray"
+                    android:text="None" />
+
+
+
+                <TextView
+                    android:id="@+id/user_institute_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:textColor="@color/dark_gray"
+                    android:text="None"
+                   />
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/user_institute_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:textColor="@color/dark_gray"
+                    android:text="None" />
+
+
+                <TextView
+                    android:id="@+id/user_institute_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:textColor="@color/dark_gray"
+                    android:text="None" />
+
+
+
+                <TextView
+                    android:id="@+id/user_institute_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:textColor="@color/dark_gray"
+                    android:text="None" />
+
+            </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

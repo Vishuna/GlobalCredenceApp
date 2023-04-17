@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent" android:background="#ffffff"
+    android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView android:text="Class 1"
+            android:id="@+id/text1"
+            android:padding="5dip"
+            android:background="#ebebeb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <!--        <TextView android:text="Students" android:padding="5dip" android:background="#ebebeb"  android:layout_width="200dp" android:layout_height="wrap_content"  android:gravity="center"/>-->
+        <LinearLayout android:id="@+id/panel1" android:visibility="gone"  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableLayout
+                android:id="@+id/Fee_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginVertical="10dp"
+                android:divider="#777777"
+                android:showDividers="middle"
+                android:shrinkColumns="0"
+                android:stretchColumns="1">
+                <TableRow>
+                    <TextView android:layout_margin="2dip"
+                        android:text="Student Name"
+                        android:padding="5dip"
+                        android:background="#ffffff"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView android:layout_margin="2dip" android:text="Due Date" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center"/>
+                    <TextView android:layout_margin="2dip" android:text="Fee Status" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:layout_margin="2dip" android:text="Rakesh Singh" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:layout_margin="2dip" android:text="Oct.12.2020" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center"/>
+                    <TextView android:layout_margin="2dip" android:text="Unpaid" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:layout_margin="2dip" android:text="Rakesh Singh" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:layout_margin="2dip" android:text="Oct.12.2020" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center"/>
+                    <TextView android:layout_margin="2dip" android:text="Unpaid" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+        <TextView android:text="Class 2" android:id="@+id/text2" android:padding="5dip" android:background="#ebebeb"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@+id/panel2" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item3" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+        <TextView android:text="Class 3" android:id="@+id/text3" android:padding="5dip" android:background="#ebebeb"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@+id/panel3" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item3" android:padding="5dip" android:background="#ffffff"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+        <TextView android:text="Class 4" android:id="@+id/text4" android:padding="5dip" android:background="#ebebeb"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@+id/panel4" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item3" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+        <TextView android:text="Class 5" android:id="@+id/text5" android:padding="5dip" android:background="#ebebeb"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@+id/panel5" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:layout_margin="2dip" android:text="Item3" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:visibility="gone"
+        android:layout_height="340dip"  android:drawSelectorOnTop="false"  android:dividerHeight="0px"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-iid:20.3.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../GlobalCredenceApp/gradle/caches/transforms-2/files-2.1/04312744574549d5640f488e24a0fae6/jetified-firebase-iid-20.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../GlobalCredenceApp/gradle/caches/transforms-2/files-2.1/b19290b5c04f3a19d746bd660f13ed55/jetified-firebase-iid-20.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../GlobalCredenceApp/gradle/caches/transforms-2/files-2.1/b19290b5c04f3a19d746bd660f13ed55/jetified-firebase-iid-20.3.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../GlobalCredenceApp/gradle/caches/transforms-2/files-2.1/b19290b5c04f3a19d746bd660f13ed55/jetified-firebase-iid-20.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../GlobalCredenceApp/gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-iid/20.3.0/f2f5dc4c7b25352679af072cc54b46124a5a52dc/firebase-iid-20.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
